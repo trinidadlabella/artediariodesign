@@ -1,0 +1,179 @@
+@charset "UTF-8";
+.secondary {
+  background-color: red;
+  width: 6em;
+  height: 0.5em;
+  margin-top: 20px;
+  padding: 20px; }
+
+.primary {
+  background-color: #766e5f;
+  width: 6em;
+  height: 0.5em;
+  margin-top: 20px;
+  padding: 20px; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #3B3B3B; }
+
+.header {
+  z-index: 20;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #fcf2eb !important; }
+
+.tamaño__ImagenNav {
+  height: 100px !important;
+  width: 125px !important; }
+
+.tamaño__Imagen {
+  height: 300px; }
+
+.tamaño__ImagenHome {
+  height: 400px;
+  width: 20px;
+  padding-left: 150px !important;
+  padding-right: 150px !important; }
+
+/* comienzo sección Home */
+.carousel-control-prev-icon {
+  height: 50px !important;
+  width: 50px !important;
+  background-color: #3B3B3B !important;
+  background-size: 1.2rem !important;
+  border-radius: 50% !important; }
+
+.carousel-control-next-icon {
+  height: 50px !important;
+  width: 50px !important;
+  background-color: #3B3B3B !important;
+  background-size: 1.2rem !important;
+  border-radius: 50% !important; }
+
+.carousel-caption {
+  color: #3B3B3B !important; }
+
+.titulo {
+  color: #766e5f;
+  text-align: center; }
+
+.tituloPrimeraParte {
+  font-family: 'Tangerine', cursive;
+  font-weight: 100 !important;
+  font-size: 2em; }
+
+.subtitulos {
+  color: #bea795;
+  text-align: center; }
+
+.subtitulos1 {
+  color: #bea795;
+  text-align: left; }
+
+/* fin sección Home */
+/* Comienzo sección Productos */
+.redondearBordes {
+  border-radius: 60px; }
+
+.fuente {
+  font-style: italic; }
+
+a {
+  text-decoration: none;
+  color: #3B3B3B; }
+
+#tamaño {
+  font-size: 2rem; }
+
+.tamaño2 {
+  font-size: 2rem; }
+
+.tamañoNav {
+  font-size: 1.5rem; }
+
+.btn-primary {
+  background-color: #bea795 !important;
+  border: none; }
+
+/* fin sección Productos */
+/* comienzo sección Catalogo */
+.card-title {
+  color: #9f8d7e; }
+
+.card-text {
+  color: #3B3B3B; }
+
+.titulocoloresdijes {
+  background-color: #fcf2eb !important;
+  padding-top: 1.50rem;
+  padding-bottom: 1.50rem; }
+
+.titulocoloresdijes2 {
+  padding: 0px !important; }
+
+.pie {
+  text-align: right;
+  padding: 10px;
+  padding-right: 10px; }
+
+.pie2 {
+  text-align: left;
+  padding: 10px;
+  padding-right: 10px; }
+
+/* fin sección Blog */
+/* comienzo sección Envios */
+.sectionGrid {
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr;
+  grid-template-rows: 3fr;
+  justify-items: center;
+  text-align: center; }
+
+@media only screen and (max-width: 768px) {
+  .sectionGrid {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    justify-items: center;
+    text-align: center; }
+  .footerai {
+    display: flex !important;
+    justify-content: start !important; }
+  .imagenresponsive {
+    padding-left: 0px !important; }
+  .tamaño__ImagenHome {
+    padding: 0px !important; } }
+
+.tarjeta {
+  margin-bottom: 50px;
+  height: 300px;
+  width: 300px;
+  border: dashed 2px; }
+
+.tarjeta__title {
+  color: #3B3B3B;
+  font-size: 1.5rem !important;
+  margin-bottom: 20px; }
+
+.tarjeta__image {
+  width: 200px;
+  height: 110px;
+  margin: 0px auto; }
+
+.tarjeta__text {
+  color: #3B3B3B; }
+
+.animate__fadeInUp {
+  animation-duration: 2s !important; }
+
+/* fin sección Envios */
+/* comienzo sección Contacto */
+/* fin sección Contacto */
+/* comienzo FOOTER */
+footer {
+  color: #3B3B3B;
+  background-color: #fcf2eb; }
+
+/* FIN FOOTER */
