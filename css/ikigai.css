@@ -122,7 +122,19 @@ a {
   padding: 10px;
   padding-right: 10px; }
 
-/* fin sección Blog */
+.lineascatalogo {
+  border: solid #9f8d7e;
+  width: 500px;
+  margin: 0px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important; }
+
+.verticalLine {
+  border: solid #9f8d7e;
+  width: 1px;
+  height: 100%; }
+
+/* fin sección Catálogo */
 /* comienzo sección Envios */
 .sectionGrid {
   display: grid;
