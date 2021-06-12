@@ -14,7 +14,7 @@
   padding: 20px; }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #3B3B3B; }
 
 .header {
@@ -31,10 +31,14 @@ body {
   height: 300px; }
 
 .tamaño__ImagenHome {
-  height: 400px;
   width: 20px;
   padding-left: 150px !important;
   padding-right: 150px !important; }
+
+.tipografiahome1 {
+  font-family: "Staatliches", cursive;
+  font-size: 50px;
+  background-color: #F9F7F6; }
 
 /* comienzo sección Home */
 .carousel-control-prev-icon {
@@ -59,7 +63,7 @@ body {
   text-align: center; }
 
 .tituloPrimeraParte {
-  font-family: 'Tangerine', cursive;
+  font-family: 'Tangerine';
   font-weight: 100 !important;
   font-size: 2em; }
 
@@ -70,6 +74,9 @@ body {
 .subtitulos1 {
   color: #bea795;
   text-align: left; }
+
+.bordecardhome {
+  border: none; }
 
 /* fin sección Home */
 /* Comienzo sección Productos */
@@ -191,5 +198,8 @@ footer {
 .imagenfooter {
   width: 250px;
   height: 85px; }
+
+.titulofooter {
+  font-weight: bold; }
 
 /* FIN FOOTER */
