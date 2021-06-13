@@ -63,13 +63,18 @@ body {
   text-align: center; }
 
 .tituloPrimeraParte {
-  font-family: 'Tangerine';
+  font-family: "Cormorant Garamond", serif;
   font-weight: 100 !important;
   font-size: 2em; }
 
+.tituloSegundaParte {
+  font-family: "Dancing Script", cursive; }
+
 .subtitulos {
+  font-family: "Cormorant Garamond", serif;
   color: #bea795;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
 
 .subtitulos1 {
   color: #bea795;
@@ -172,8 +177,10 @@ a {
   border: dashed 2px; }
 
 .tarjeta__title {
-  color: #3B3B3B;
+  color: #766e5f;
+  text-align: center;
   font-size: 1.5rem !important;
+  margin-top: 10px;
   margin-bottom: 20px; }
 
 .tarjeta__image {
