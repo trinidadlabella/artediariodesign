@@ -144,10 +144,8 @@ a {
   margin-top: 10px !important;
   margin-bottom: 10px !important; }
 
-.verticalLine {
-  border: solid #9f8d7e;
-  width: 1px;
-  height: 100%; }
+.list-style {
+  list-style: none; }
 
 /* fin sección Catálogo */
 /* comienzo sección Envios */
