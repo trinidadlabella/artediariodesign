@@ -127,6 +127,10 @@ a {
 .titulocoloresdijes2 {
   padding: 0px !important; }
 
+.imagencolores {
+  min-height: 200px;
+  min-width: 400px; }
+
 .lineascatalogo {
   border: solid #9f8d7e;
   width: 500px;
@@ -158,8 +162,20 @@ a {
     justify-content: start !important; }
   .imagenresponsive {
     padding-left: 0px !important; }
+  .imagencolores {
+    display: flex;
+    min-height: 100px;
+    min-width: 200px; }
   .tamaño__ImagenHome {
-    padding: 0px !important; } }
+    padding: 0px !important; }
+  hr {
+    max-width: 100% !important; }
+  .variable1 {
+    padding: 20px !important; }
+  .cardresponsive {
+    margin-bottom: 10px !important; }
+  .btn-home {
+    margin-right: 0px !important; } }
 
 .tarjeta {
   margin-bottom: 50px;
